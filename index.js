@@ -18,5 +18,4 @@ db.connect();
 
 
 
-
 module.exports = app.listen(config.port, () => console.log(`${config.name} is listening on url http://localhost:` + config.port));
