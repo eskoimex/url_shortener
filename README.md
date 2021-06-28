@@ -3,7 +3,7 @@ Shortens URL and redirects to original URl
 
 
 # To run the code
-- clone the code and install dependencies in the package.json file.
+- unzip git folder or clone the code from github https://github.com/eskoimex/url_shortener.git and install dependencies in the package.json file.
 - run the command npm install.
 - get the .env file from the zip folder.
 - use mongodb compass as memory.
