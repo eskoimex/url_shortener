@@ -8,10 +8,10 @@ Shortens URL and redirects to original URl
 - enter the command npm start.
 
 - There are four end points.
-  POST /encode [Parameter originalUrl] - encodes the originalUrl to a shortenedUrl 
-  POST /decode [Parameter shortenedUrl] - decodes a shortened Url to it's original Url
-  GET /statistic/:code [Parameter shortenedUrlCode]- returns basic statistics of the shor Url path.
-  GET /:code [Parameter shortenedUrlCode] - redirects to originalUrl.
+   - POST /encode [Parameter originalUrl] - encodes the originalUrl to a shortenedUrl 
+   - POST /decode [Parameter shortenedUrl] - decodes a shortened Url to it's original Url
+   - GET /statistic/:code [Parameter shortenedUrlCode]- returns basic statistics of the shor Url path.
+   - GET /:code [Parameter shortenedUrlCode] - redirects to originalUrl.
 
 # To run test 
 - enter the command npm test
